@@ -1,0 +1,288 @@
+@media(max-width:1199px) {
+    .page-header {
+        background: 0;
+    }
+
+    .header-right a {
+        border: 1px solid #006FF9;
+        border-radius: 50%;
+        background: black;
+    }
+
+}
+
+@media(max-width:991px) {
+
+    .page-header {
+        background: 0;
+
+        &::after {
+            content: none;
+        }
+    }
+
+    .header-list {
+        display: none !important;
+        margin-left: 0;
+
+        li {
+            margin: 0;
+            margin-bottom: 15px;
+
+            &:nth-child(1) {
+                margin-bottom: 15px;
+            }
+        }
+
+        &.active {
+            position: fixed;
+            display: block !important;
+            background: red;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            padding: 15px;
+            z-index: 4;
+        }
+
+
+    }
+
+    &.overlay.active {
+        visibility: visible;
+        position: fixed;
+
+    }
+
+    .header-right {
+        display: flex;
+
+        span {
+            font-size: 0;
+        }
+    }
+
+
+
+
+
+    .header-right a {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-right a:nth-child(1) {
+
+        padding: 0;
+    }
+
+    .header-right a:nth-child(2) {
+        padding: 0;
+        border-radius: 50%;
+
+        &:hover {
+            fill: #006FF9;
+
+        }
+    }
+
+    .phone {
+        display: block;
+
+        fill: #006FF9;
+
+        &:hover {
+            fill: #fff;
+        }
+    }
+
+    .burger {
+        display: block;
+        fill: #006FF9;
+    }
+
+
+
+    .header-right button {
+        display: block !important;
+        width: 38px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    .page-main__img {
+        width: 50%;
+    }
+
+    .page-main__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &::after {
+            content: none;
+        }
+    }
+
+    .main-card {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    .recycl-descr {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .recycl-descr__left {
+        margin-bottom: 70px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .protect-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-protect__card {
+        margin-bottom: 65px;
+    }
+
+    .reason-right::after {
+        content: none;
+    }
+
+    .page-main::after {
+        content: none;
+    }
+
+    .footer-overlay {
+        display: none;
+    }
+
+    .footer-row {
+        flex-wrap: wrap;
+        align-content: center;
+
+        &::after {
+            content: none;
+        }
+
+    }
+
+    .footer-details li:nth-child(3) {
+        max-width: 200px;
+    }
+
+    .footer-item {
+        margin-bottom: 50px;
+    }
+
+
+}
+
+@media(max-width:767px) {
+    .page-main__row {
+        text-align: center;
+    }
+
+    .header-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-right button {
+        display: block;
+        width: 33px;
+        height: 32px;
+        margin-left: 15px;
+    }
+
+    .page-main__img {
+        display: none;
+    }
+
+    .main-content-bottom {
+        display: flex;
+        justify-content: center;
+        margin: 55px;
+    }
+
+    .header-social {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .reason-right {
+        align-self: center;
+    }
+
+    .footer-nav span::after {
+        content: none;
+    }
+
+    .footer-details span::after {
+        content: none;
+    }
+
+    .footer-partner span::after {
+        content: none;
+    }
+    .mySwiper {
+        margin-bottom: 20px;
+    }
+    .page-footer {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:575px) {
+    .main-content-bottom {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .main-content-bottom a:nth-child(1) {
+        margin: 0;
+        padding: 12px 15px;
+    }
+    .main-content-bottom a:nth-child(2) {
+        margin: 0;
+        padding: 12px 11px;
+    }
+
+    .section-reason__wrap {
+        flex-direction: column;
+    }
+
+    .footer-row {
+        padding-bottom: 0;
+    }
+
+    .main-card {
+        padding-bottom: 35px;
+    }
+
+    .recycl-descr {
+        margin-bottom: 34px;
+    }
+
+    .section-protect {
+        padding-bottom: 50px;
+    }
+
+    
+
+    
+}

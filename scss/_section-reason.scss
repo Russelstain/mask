@@ -1,0 +1,54 @@
+.section-reason__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.reason-left__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: capitalize;
+    color: #212529;
+    margin-bottom: 21px;
+}
+
+.reason-left {
+    align-self: center;
+}
+
+.reason-left__list li {
+    margin-bottom: 22px;
+    position: relative;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #6F7074;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background: url(../img/reason/reason-list.png) no-repeat;
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        left: 0;
+        top: 4px;
+
+    }
+}
+
+.reason-right {
+
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        background: url(../img/reason/reason-watermaker.png) no-repeat;
+        width: 172px;
+        height: 172px;
+        bottom: -80px;
+        left: -60px;
+    }
+
+}

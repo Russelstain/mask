@@ -1,0 +1,108 @@
+.slider__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #212529;
+    margin-bottom: 20px;
+
+}
+
+.slider-relative {
+    position: relative;
+}
+
+.slider-description {
+    text-align: center;
+    position: relative;
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+    padding: 0px 30px 48px 30px;
+
+    margin-bottom: 23px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -22px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-top: 15px solid #fff;
+        ;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        width: 0;
+        height: 0;
+    }
+}
+
+.slider-description__image {
+    padding: 12px 9px;
+    background: #ffff;
+    box-shadow: 0px 20px 40px rgba(213, 214, 218, 0.4);
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 23px;
+}
+
+.slider-content__photo {
+    margin-bottom: 8px;
+}
+
+.slider-content__name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #212529;
+    margin-bottom: 5px;
+}
+
+.slider-content__job {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6F7074;
+}
+
+.slider-description__text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #18191F;
+}
+
+.slider-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider__subtitle {
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 60px;
+}
+
+.mySwiper {
+    padding-bottom: 71px;
+    margin-bottom: 251px;
+}
+
+.swiper-pagination-bullet {
+    background: blue;
+    opacity: 1;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+    transition-duration: .5s;
+}
+
+.swiper-pagination-bullet-active {
+    background: transparent;
+    box-shadow: 0 0 0 3px blue;
+}

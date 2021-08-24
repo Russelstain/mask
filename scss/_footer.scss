@@ -1,0 +1,221 @@
+.page-footer {
+    position: relative;
+    background: #212529;
+    padding-top: 286px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer-item__text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.footer-item__social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-nav {
+    span {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-bottom: 29px;
+        position: relative;
+        padding-bottom: 12px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 167px;
+            border: 1px solid #6F7074;
+            bottom: 0;
+            left: 0;
+            margin-top: 12px;
+
+        }
+    }
+
+    li {
+        font-size: 14px;
+        color: #FAFAFA;
+        opacity: 0.8;
+        margin-bottom: 10px;
+    }
+}
+
+.footer-details {
+    span {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-bottom: 29px;
+        position: relative;
+        padding-bottom: 12px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 255px;
+            border: 1px solid #6F7074;
+            bottom: 0;
+            left: 0;
+            margin-top: 12px;
+
+        }
+    }
+
+    li {
+        margin-bottom: 15px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #FFFFFF;
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            left: 0;
+            top: 2px;
+        }
+
+        &:nth-child(1)::before {
+            background: url(../img/footer/phone-icon.svg) no-repeat;
+
+        }
+
+        &:nth-child(2)::before {
+            background: url(../img/footer/mail-icon.svg) no-repeat;
+
+        }
+
+        &:nth-child(3)::before {
+            background: url(../img/footer/geo-icon.svg) no-repeat;
+
+        }
+    }
+}
+
+.footer-partner {
+    span {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-bottom: 29px;
+        position: relative;
+        padding-bottom: 12px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 160px;
+            border: 1px solid #6F7074;
+            bottom: 0;
+            left: 0;
+            margin-top: 12px;
+
+        }
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 30px;
+        color: #FAFAFA;
+        opacity: 0.8;
+
+    }
+}
+
+.footer-partner p:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+.footer-row {
+    position: relative;
+    margin-bottom: 90px;
+    padding-bottom: 50px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 1110px;
+        border: 1px solid #6F7074;
+    }
+}
+
+.footer-tm {
+    font-size: 14px;
+    line-height: 30px;
+    color: #6F7074;
+    text-align: center;
+}
+
+.footer-overlay {
+    position: absolute;
+    width: 1110px;
+    height: 327px;
+    background: #006FF9;
+    border-radius: 10px;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 4;
+
+    h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+
+    a {
+        display: flex;
+        padding: 13px 34px 13px 34px;
+        background: #FFFFFF;
+        border-radius: 2px;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.04em;
+        color: #212529;
+        transition-duration: 1s;
+        cursor: pointer;
+
+        svg {
+            margin-left: 7px;
+        }
+
+
+      
+    }
+}
